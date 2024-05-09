@@ -31,7 +31,7 @@ export default function Home() {
       <Header/>
       {/* Main content area with cards */}
       <main className="flex-grow">
-  <div className="bg-white px-4 py-8">
+  <div className="bg-white px-4 py-8"> s
     <div className="max-w-xl mx-auto">
       <h2 className="text-lg font-semibold">Connect and Earn</h2>
       <h1 className="text-3xl font-bold mb-4">Referral Program - Join and Earn on Every Transaction</h1>
