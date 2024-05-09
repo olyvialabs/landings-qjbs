@@ -25,53 +25,53 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 text-gray-700">
       <Head>
-        <title>Upgrade to Quickjobs Plus</title>
+        <title>Referral Program Details</title>
       </Head>
 
       <Header/>
-
       {/* Main content area with cards */}
       <main className="flex-grow">
-      <h1 className="text-3xl font-bold text-gray-800 mt-14 text-center">Upgrade to Quickjobs Plus</h1>
-      <p className="text-xl text-gray-800  text-center">Get priority and 10x more visibility</p>
+  <div className="bg-white px-4 py-8">
+    <div className="max-w-xl mx-auto">
+      <h2 className="text-lg font-semibold">Connect and Earn</h2>
+      <h1 className="text-3xl font-bold mb-4">Referral Program - Join and Earn on Every Transaction</h1>
+      <div className="flex justify-between mb-4">
+        <button className="bg-black text-white py-2 px-4 rounded">Register</button>
+        <button className="bg-transparent border border-black py-2 px-4 rounded">View Program</button>
+      </div>
+      <p className="text-sm mb-4">
+        At Quickjobs, we understand the power of connections and how important referrals are. That is why we implemented a referral reward system.
+      </p>
+      <h3 className="font-semibold mb-2">Benefits of the Referral Program:</h3>
+      <ul className="text-sm list-disc pl-4 mb-4">
+        <li>Earn an additional 7.5% commission on each transaction completed through your referral link.</li>
+        <li>Strengthen your network as each referral not only expands your professional circle but also benefits from integrated services within Quickjobs.</li>
+        <li>Maximize your professional impact and earnings in the region.</li>
+      </ul>
+      <h3 className="font-semibold mb-2">How does it work?</h3>
+      <p className="text-sm mb-4">
+        Each time one of your contacts completes a transaction through Quickjobs, you earn a percentage of the income. 
+      </p>
+      <p className="text-sm mb-4">This adds up and is credited to your account, constituting an additional income. Earn a 7.5% commission on the total transaction amount directly in your account.</p>
 
+      <p className="text-sm">
+        Start earning more today by inviting your contacts to join the referral program. Join now and maximize your professional connections!
+      </p>
+    </div>
+    <div className="flex flex-col items-center justify-center"> 
 
-        <div className="w-full flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl px-8 py-12">
-            {/* Free Subscription Card */}
-            <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col">
-              <h2 className="text-lg font-bold text-orange-500 mb-4">Free subscription</h2>
-              <p>1 Quick job per day</p>
-              <p>Quick job expires in 1 day</p>
-              <p>30-day free trial with 3 transactions where the commission fee is waived</p>
-              <button className="mt-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-                Start for Free
-              </button>
-            </div>
-
-            {/* Plus Subscription Card */}
-            <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col">
-              <h2 className="text-lg font-bold text-orange-500 mb-4">Plus subscription</h2>
-              <p>30 credits per month ($0.33 per credit)</p>
-              <p>15+15 free credits</p>
-              <p>Quick jobs expire in 1 week</p>
-              <button className="mt-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-                Buy subscription for $5
-              </button>
-            </div>
-
-            {/* Credits Package Card */}
-            <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col">
-              <h2 className="text-lg font-bold text-orange-500 mb-4">Credits Package</h2>
-              <p>Credits $0.71 per credit</p>
-              <p>7 Credits for $4.99</p>
-              <button className="mt-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-                Buy now
-              </button>
-            </div>
+        <div className="bg-gray-200 mt-8 p-4 text-center w-80">
+          <h2 className="font-bold mb-2">Download on iOS / Android</h2>
+          <div className="flex justify-center space-x-4">
+            <a href="#" className="bg-black text-white py-2 px-4 rounded">App Store</a>
+            <a href="#" className="bg-black text-white py-2 px-4 rounded">Google Play</a>
           </div>
         </div>
-      </main>
+      </div>
+    </div>
+</main>
+
+
 
 
       
